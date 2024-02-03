@@ -4,3 +4,8 @@ import { useNavigate } from 'react-router-dom'
 import { AuthenCheck } from '../components/AuthenCheck'
 import axios from "axios"
 
+function Homepage () {
+
+}
+
+export default Homepage
