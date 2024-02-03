@@ -1,0 +1,30 @@
+***ต้องทำ***
+
+- จัดการ logic ทั้ง front/back
+
+    [back]
+    - ใช้ select หา user เดิมที่มีอยู่ เช็คว่าข้อมูลใน register ซ้ำกับข้อมูลที่มีอยู่มั้ย
+        - ถ้าซ้ำ ยิง json กลับไป (เช่น failed)
+        - ถ้าไม่ ยิง json กลับไป (เช่น success)
+
+    - ทำหน้าเปลี่ยน password
+        - ทำคอลัมน์ เก็บ password เก่าที่เคยเปลี่ยน
+
+    [front]
+    - รับช่วงต่อจาก back
+    - เขียน logic ไว้รับ json ที่ back ส่งมา
+        - ถ้าซ้ำ ให้ user กรอกใหม่
+        - ถ้าไม่ แจ้ง user ว่าสำเร็จ -> navigate user ไป home/login
+        - **แนะนำ try catch
+    
+
+***ต้องหา***
+
+- ลองหาวิธีใช้ req.params
+    - ใช้ id ใน url ยิงจากหน้าบ้าน แล้วเอาไปค้นใน database ลองเชื่อมกัน
+
+
+***ต้องศึกษา***
+
+- Hook ต่าง ๆ (useState, useEffect)
+- Array mapping
