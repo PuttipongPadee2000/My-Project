@@ -27,6 +27,7 @@ function App() {
       <NavLoggedIn />
       <div className="container-fluid text-center my-5">
         <h1>You are logged in!</h1>
+        <h1>WIP</h1>
       </div>
     </div>
   );
