@@ -7,8 +7,7 @@ import axios from "axios"
 function Homepage() {
     return (
         <>
-            <h1>Hello world!</h1>
-            <h1>Hello world!</h1>
+            <h1>Welcome to the store!</h1>
         </>
     )
 }
