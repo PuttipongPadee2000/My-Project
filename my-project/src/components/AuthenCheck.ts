@@ -1,10 +1,10 @@
 import axios from 'axios'
 
-export const AuthenCheck = async (): Promise<boolean> => {
+export const AuthenCheck = async () => {
   try {
     const token = localStorage.getItem('token')
 
-    if (!token) {
+    if (token === null) {
       return false
     }
 
@@ -25,4 +25,4 @@ export const AuthenCheck = async (): Promise<boolean> => {
     console.error(error)
     return false
   }
-};
+}

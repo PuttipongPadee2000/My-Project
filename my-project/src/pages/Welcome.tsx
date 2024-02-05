@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import NavLogin from "../components/NavLogin";
+import NavLogin from "../components/NavLogin"
 
 const Welcome = () => {
   return (

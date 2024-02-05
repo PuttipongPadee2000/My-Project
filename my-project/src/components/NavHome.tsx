@@ -19,9 +19,12 @@ function NavHome() {
             <nav className="bg-dark navbar navbar-expand-md navbar-dark">
                 <div className="container-fluid">
                     <div className="container-fluid">
-                        <Link to="/home" className="navbar-brand">HOME</Link>
+                        <Link to="/" className="navbar-brand">HOME</Link>
                     </div>                    
                     <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <Link to="/blog" className="nav-link" >Blog</Link>
+                        </li>
                         <li className="nav-item">
                             <button className="nav-link" onClick={handleLogout} >Logout</button>
                         </li>                   

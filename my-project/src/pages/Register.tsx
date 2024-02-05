@@ -66,7 +66,7 @@ function Register() {
                                 type="text"
                                 value={username}
                                 onChange={handleUsernameChange}
-                                // required
+                                required
                             />
                         </div>
 
@@ -79,7 +79,7 @@ function Register() {
                                 type="password"
                                 value={password}
                                 onChange={handlePasswordChange}
-                                // required
+                                required
                             />
                         </div>
 
@@ -92,7 +92,7 @@ function Register() {
                                 type="password"
                                 value={confirmation}
                                 onChange={handleConfirmationChange}
-                                // required
+                                required
                             />
                         </div>
 
@@ -102,7 +102,7 @@ function Register() {
                     </form>
                     <div>
                         <a href='/login'>Already have an account?</a>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </>

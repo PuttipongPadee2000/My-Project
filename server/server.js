@@ -70,7 +70,7 @@ app.route('/authentication')
 app.route('/users')
 
   // GET
-  .get(async (req, res) => {  
+  .get(async (req, res) => { // users route
     try {
       res.send('users GET')
     } catch (error) {

@@ -1,8 +1,8 @@
 import './App.css'
-import { useEffect } from 'react';
+import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { AuthenCheck } from './components/AuthenCheck'
-import NavLoggedIn from "./components/NavHome";
+import NavLoggedIn from "./components/NavHome"
 
 function App() {
   const navigate = useNavigate()
@@ -12,7 +12,7 @@ function App() {
       const authentication = async () => {
         const isAuthen = await AuthenCheck()
         if (!isAuthen) {
-          navigate('/login')
+          navigate('/home')
         }
       }
       authentication()
@@ -20,7 +20,7 @@ function App() {
 
   } catch (error) {
     console.error(error)
-  }  
+  }
 
   return (
     <div className="App">

@@ -4,16 +4,21 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from './App.tsx'
-import Welcome from './pages/Welcome.tsx';
+
+import App from './App.tsx';
 import Register from './pages/Register.tsx'
 import Login from './pages/Login.tsx'
-
+import Welcome from './pages/Welcome.tsx';
+import Blog from './pages/blog.tsx';
 
 const router = createBrowserRouter([
   {
+    path: "/",
+    element: <App />,
+  },
+  {
     path: "/home",
-    element: <Welcome />
+    element: <Welcome />,
   },
   {
     path: "/register",
@@ -24,8 +29,8 @@ const router = createBrowserRouter([
     element: <Login />,
   },
   {
-    path: "/",
-    element: <App />,
+    path: "/blog",
+    element: <Blog />,
   }
 ]);
 

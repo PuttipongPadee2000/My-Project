@@ -60,7 +60,7 @@ function Login() {
                             type="text" 
                             value={username}
                             onChange={handleUsernameChange}
-                            // required
+                            required
                             />                            
                         </div>
 
@@ -73,7 +73,7 @@ function Login() {
                             type="password"
                             value={password}
                             onChange={handlePasswordChange}
-                            // required
+                            required
                             />
                         </div>
 
