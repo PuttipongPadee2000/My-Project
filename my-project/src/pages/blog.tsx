@@ -7,18 +7,18 @@ function Blog() {
     const navigate = useNavigate()
   
     try {
-    useEffect(() => {
-        const authentication = async () => {
-            const isAuthen = await AuthenCheck()
-            if (!isAuthen) {
-                navigate('/home')
+        useEffect(() => {
+            const authentication = async () => {
+                const isAuthen = await AuthenCheck()
+                if (!isAuthen) {
+                    navigate('/home')
+                }
             }
-        }
-        authentication()
-    }, [])
+            authentication()
+        }, [])
 
     } catch (error) {
-    console.error(error)
+        console.error(error)
     }
     
     return (
