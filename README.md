@@ -1,5 +1,5 @@
-### [WIP]
-# Possible endgoal
+# [WIP]
+### Possible endgoal
 - Some kind of blogs/store website
 - standard register/login system
   - jwt authen
