@@ -1,4 +1,4 @@
-# [WIP]
+# [WIP PROJECT]
 ### Possible endgoal
 - Some kind of blogs/store website
 - standard register/login system
