@@ -9,10 +9,10 @@ function Blog() {
     try {
     useEffect(() => {
         const authentication = async () => {
-        const isAuthen = await AuthenCheck()
-        if (!isAuthen) {
-            navigate('/home')
-        }
+            const isAuthen = await AuthenCheck()
+            if (!isAuthen) {
+                navigate('/home')
+            }
         }
         authentication()
     }, [])

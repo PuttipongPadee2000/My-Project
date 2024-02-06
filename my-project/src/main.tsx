@@ -9,7 +9,7 @@ import App from './App.tsx';
 import Register from './pages/Register.tsx'
 import Login from './pages/Login.tsx'
 import Welcome from './pages/Welcome.tsx';
-import Blog from './pages/blog.tsx';
+import Blog from './pages/Blog.tsx';
 
 const router = createBrowserRouter([
   {
