@@ -1,6 +1,26 @@
+import { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { AuthenCheck } from '../components/AuthenCheck'
 import NavHome from "../components/NavHome"
 
 function Blog() {
+    const navigate = useNavigate()
+  
+    try {
+    useEffect(() => {
+        const authentication = async () => {
+        const isAuthen = await AuthenCheck()
+        if (!isAuthen) {
+            navigate('/home')
+        }
+        }
+        authentication()
+    }, [])
+
+    } catch (error) {
+    console.error(error)
+    }
+    
     return (
         <>
             <NavHome />
