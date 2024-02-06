@@ -32,7 +32,7 @@ function NavHome() {
                 </div>
             </nav>
         </>
-    );
+    )
 }
 
-export default NavHome;
+export default NavHome

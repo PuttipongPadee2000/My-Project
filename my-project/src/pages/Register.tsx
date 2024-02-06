@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from "axios"
-import NavLogin from "../components/NavLogin.tsx"
+import NavLogin from '../components/NavLogin.tsx'
 
 function Register() {
     const navigate = useNavigate()
@@ -106,7 +106,7 @@ function Register() {
                 </div>
             </div>
         </>
-    );
+    )
 }
 
 export default Register

@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { AuthenCheck } from '../components/AuthenCheck'
-import NavHome from "../components/NavHome"
+import NavHome from '../components/NavHome'
 
 function Blog() {
     const navigate = useNavigate()

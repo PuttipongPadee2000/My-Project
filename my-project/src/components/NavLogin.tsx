@@ -20,7 +20,7 @@ function NavLogin() {
                 </div>
             </nav>
         </>
-    );
+    )
 }
 
-export default NavLogin;
+export default NavLogin

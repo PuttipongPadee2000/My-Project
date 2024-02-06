@@ -3,34 +3,34 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
-import App from './App.tsx';
+import App from './App.tsx'
 import Register from './pages/Register.tsx'
 import Login from './pages/Login.tsx'
-import Welcome from './pages/Welcome.tsx';
-import Blog from './pages/Blog.tsx';
+import Welcome from './pages/Welcome.tsx'
+import Blog from './pages/Blog.tsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <App />
   },
   {
     path: "/home",
-    element: <Welcome />,
+    element: <Welcome />
   },
   {
     path: "/register",
-    element: <Register />,
+    element: <Register />
   },
   {
     path: "/login",
-    element: <Login />,
+    element: <Login />
   },
   {
     path: "/blog",
-    element: <Blog />,
+    element: <Blog />
   }
 ]);
 

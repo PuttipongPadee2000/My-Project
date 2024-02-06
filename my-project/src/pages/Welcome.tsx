@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import NavLogin from "../components/NavLogin"
+import { Link } from 'react-router-dom'
+import NavLogin from '../components/NavLogin'
 
 const Welcome = () => {
   return (
@@ -10,7 +10,7 @@ const Welcome = () => {
         <p>***The content inside requires <span><Link to="/login">login</Link></span>.***</p>
       </div>
     </>
-  );
+  )
 }
 
-export default Welcome;
+export default Welcome

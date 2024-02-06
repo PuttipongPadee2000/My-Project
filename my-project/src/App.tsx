@@ -2,7 +2,7 @@ import './App.css'
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { AuthenCheck } from './components/AuthenCheck'
-import NavLoggedIn from "./components/NavHome"
+import NavLoggedIn from './components/NavHome'
 
 function App() {
   const navigate = useNavigate()
@@ -29,7 +29,7 @@ function App() {
         <h1>You are logged in!</h1>
       </div>
     </div>
-  );
+  )
 }
 
 export default App

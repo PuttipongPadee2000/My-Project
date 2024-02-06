@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from "axios"
-import NavLogin from "../components/NavLogin.tsx";
+import NavLogin from '../components/NavLogin.tsx'
 
 function Login() {
     const navigate = useNavigate()
