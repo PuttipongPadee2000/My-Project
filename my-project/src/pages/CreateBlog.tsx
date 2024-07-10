@@ -4,7 +4,7 @@ import { AuthenCheck } from '../components/AuthenCheck'
 import { Link } from 'react-router-dom'
 import NavHome from '../components/NavHome'
 
-function Blog() {
+function CreateBlog() {
     const navigate = useNavigate()
   
     try {
@@ -26,13 +26,10 @@ function Blog() {
         <>
             <NavHome />
             <div className="container-fluid text-center my-5">
-                <h1>You haven't posted any blogs yet.</h1>
-            </div>
-            <div className="container-fluid text-center my-5">
-                <Link to="/createblog">Start writing your first blog!</Link>
-            </div>            
+                <h1>Topic:</h1>
+            </div>          
         </>
     )
 }
 
-export default Blog
+export default CreateBlog

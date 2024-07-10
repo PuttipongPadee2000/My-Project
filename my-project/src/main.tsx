@@ -10,6 +10,7 @@ import Register from './pages/Register.tsx'
 import Login from './pages/Login.tsx'
 import Welcome from './pages/Welcome.tsx'
 import Blog from './pages/Blog.tsx'
+import CreateBlog from './pages/CreateBlog.tsx'
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/blog",
     element: <Blog />
+  },
+  {
+    path: "/createblog",
+    element: <CreateBlog />
   }
 ]);
 
